@@ -1,8 +1,9 @@
 # KCC2 reference code
 
-This document illustrates KCC2 authority checks in current Silverscript and
-Argent syntax. It is non-normative; KCC2 Sections 2 through 5 define the required
-semantics.
+This document illustrates KCC2 authority checks in current
+[Silverscript](https://github.com/kaspanet/silverscript) and
+[Argent](https://github.com/argent-lang/argent) syntax. It is non-normative;
+KCC2 Sections 2 through 5 define the required semantics.
 
 For signature schemes, the higher-level convention defines the signed message,
 signature encoding, and witness layout.
