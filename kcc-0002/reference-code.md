@@ -71,7 +71,7 @@ the higher-level convention:
 
 ```js
 function requireP2SH(byte[32] authority, int authorityInput) {
-    byte[] expected = byte[](new ScriptPubKeyP2SH(authority));
+    byte[] expected = byte[](new ScriptPubKeyP2SH(authority)); // => 0x0000 OP_BLAKE2B OP_DATA_32 authority OP_EQUAL
     require(tx.inputs[authorityInput].scriptPubKey == expected);
 }
 ```
